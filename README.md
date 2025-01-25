@@ -1,6 +1,6 @@
 # 💻 Portafolio de Programación
 
-¡Hola! 👋 Soy Alfredo Sobrados, apasionado por la programación, la tecnología y el desarrollo de software. Este repositorio es una recopilación de proyectos y prácticas académicas y extraacadémicas que reflejan mi progreso, aprendizajes y habilidades en diversas tecnologías. 🚀  
+¡Hola! 👋 Soy Alfredo Sobrados, apasionado por la programación, la tecnología y el desarrollo de software. Esto es una recopilación de proyectos y prácticas académicas y extraacadémicas que reflejan mi progreso, aprendizajes y habilidades en diversas tecnologías. 🚀  
 
 ## 📂 Índice de Proyectos
 
