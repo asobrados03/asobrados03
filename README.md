@@ -60,8 +60,18 @@
 
 ---
 
+### 6. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
+
+**Descripción:** Este práctica final es una replica del mítico juego Arkanoid desarrollado en Java.
+
+**Tecnologías:** Java, Swing Java y AWT GUI  
+
+**Objetivo:** Aprender a desarrollar una aplicación de escritorio visual en Java para entender y aplicar el diseño de interfaces de usuario de manera práctica. 
+
+---
+
 ## 🌱 Sobre mí
-Soy un desarrollador en constante aprendizaje, con interés en desarrollo de aplicaciones web y móviles, inteligencia artificial, ciberseguridad y la tecnología blockchain. En este portafolio encontrarás desde prácticas básicas hasta proyectos más avanzados, reflejando mi evolución en este duro pero bonito camino.  
+Soy un desarrollador en constante aprendizaje, con interés en desarrollo de aplicaciones web y móviles, inteligencia artificial, ciberseguridad y tecnología blockchain. En este portafolio encontrarás desde prácticas básicas hasta proyectos más avanzados, reflejando mi evolución en este duro pero bonito camino.  
 
 ## 📫 Contacto
 - **LinkedIn:** [Mi Perfil de LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/)  
