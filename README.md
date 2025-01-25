@@ -8,7 +8,7 @@
 
 **Descripción:** Finanzas Personales es una aplicación Android, diseñada para facilitar la gestión de tus finanzas personales. Implementa la arquitectura MVVM (Model-View-ViewModel) junto con el patrón Repository para garantizar un diseño modular, escalable y fácilmente mantenible. Esta app es mi Práctica Final de Plataformas de Software Móviles.  
 
-**Tecnologías:** Kotlin, Jetpack Compose, Material Design 3 y Android Studio. 
+**Tecnologías:** Kotlin, Jetpack Compose, Material Design 3, Gradle KTS y Android Studio.
 
 **Puntos clave:**  
 - Esta app resuelve el problema de unas finanzas personales mal gestionadas.  
