@@ -28,7 +28,7 @@
 
 ### 3. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
 
-**Descripción:** La aplicación web permite a los profesores de Tecnologías Web notificar avisos a sus alumnos. Los avisos son pequeños elementos de información con un título o asunto descriptivo y un contenido informativo breve (máximo 150 caracteres). Los avisos pueden ser colectivos, dirigidos a todos los alumnos de la asignatura (por ejemplo, la comunicación de un cambio de laboratorio, fecha de examen, etc.) o individuales, dirigidos específicamente a cada estudiante (por ejemplo, la comunicación de una nota individual de un examen, la configuración personal de su máquina virtual, etc.). 
+**Descripción:** La aplicación web permite a los profesores de Tecnologías Web notificar avisos a sus alumnos.
 
 **Tecnologías:** HTML, CSS, PHP, JavaScript, jQuery y un entorno virtual LAMP(Linux, Apache, MySQL y PHP).  
 
