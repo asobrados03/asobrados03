@@ -16,7 +16,45 @@
 
 ---
 
-### 2. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
+Aquí tienes la plantilla rellenada con la información de tu proyecto:  
+
+---
+
+### 2. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)  
+**Descripción:**  
+HotelManagementAPI es una API RESTful diseñada para gestionar un hotel, permitiendo la administración de clientes, habitaciones, reservas, pagos y administradores. Implementa autenticación con JWT y sigue una arquitectura limpia para separar la lógica de negocio, la infraestructura y los adaptadores.  
+
+**Motivación:**  
+Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque la comunidad ya no está activa, decidí desarrollarlo y publicarlo por mi cuenta como una oportunidad para mejorar mis habilidades en el diseño de APIs RESTful, el manejo de bases de datos con JDBC y la aplicación de buenas prácticas en arquitectura de software.  
+
+**Tecnologías:**  
+- **Lenguaje y Framework:** Java 21+ con Spring Boot  
+- **Seguridad:** Spring Security con JWT  
+- **Base de Datos:** MariaDB en Docker  
+- **Persistencia:** JDBC (sin ORM)  
+- **Contenedores:** Docker para la base de datos y Adminer  
+- **Documentación:** Swagger/OpenAPI  
+- **Pruebas:** JUnit5 y Mockito  
+- **Herramientas de construcción:** Gradle  
+
+**Características destacadas:**  
+- CRUD completo para clientes, habitaciones, reservas, pagos y administradores.  
+- Implementación de autenticación y autorización con JWT.  
+- Uso de JDBC en lugar de ORM para mayor control sobre las consultas SQL.  
+- Arquitectura limpia y modular basada en principios hexagonales.  
+- Configuración con Docker para facilitar la instalación y ejecución.  
+- Documentación interactiva con Swagger/OpenAPI.  
+- Pruebas unitarias y de integración para garantizar la estabilidad del sistema.  
+
+**¿Qué aprendí con este proyecto?**
+- Profundicé en la arquitectura hexagonal y su aplicación en APIs REST.  
+- Mejoré el manejo de bases de datos sin ORM utilizando JDBC.  
+- Implementé autenticación segura con JWT en Spring Boot.  
+- Aprendí a optimizar la estructura del código para mejorar la mantenibilidad y escalabilidad.  
+
+---
+
+### 3. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
 
 **Descripción:** Este proyecto implementa un sistema de gestión para un Centro de Convenciones utilizando los principios de la Programación Orientada a Objetos (POO) y varios patrones de diseño. Proporciona funcionalidades para gestionar espacios, reservas, productos y aspectos económicos del centro.  
 
@@ -26,7 +64,7 @@
 
 ---
 
-### 3. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
+### 4. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
 
 **Descripción:** La aplicación web permite a los profesores de Tecnologías Web notificar avisos a sus alumnos.
 
@@ -36,7 +74,7 @@
 
 ---
 
-### 4. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
+### 5. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
 
 **Descripción:** Ejercicios y ejemplos prácticos de estructuras de datos en Java.  
 
@@ -47,7 +85,7 @@
 
 ---
 
-### 5. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
+### 6. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
 
 **Descripción:** Ejercicios prácticos para entender conceptos fundamentales de los Sistemas Distribuidos. 
 
@@ -60,7 +98,7 @@
 
 ---
 
-### 6. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
+### 7. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
 
 **Descripción:** Este práctica final es una replica del mítico juego Arkanoid desarrollado en Java.
 
