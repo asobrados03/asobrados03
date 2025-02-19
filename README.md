@@ -16,10 +16,6 @@
 
 ---
 
-Aquí tienes la plantilla rellenada con la información de tu proyecto:  
-
----
-
 ### 2. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)  
 **Descripción:**  
 HotelManagementAPI es una API RESTful diseñada para gestionar un hotel, permitiendo la administración de clientes, habitaciones, reservas, pagos y administradores. Implementa autenticación con JWT y sigue una arquitectura limpia para separar la lógica de negocio, la infraestructura y los adaptadores.  
