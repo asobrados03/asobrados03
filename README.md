@@ -30,7 +30,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 - **Persistencia:** JDBC (sin ORM)  
 - **Contenedores:** Docker para la base de datos y Adminer  
 - **Documentación:** Swagger/OpenAPI  
-- **Pruebas:** JUnit5 y Mockito  
+- **Pruebas:** JUnit5, Mockito y Testcontainers  
 - **Herramientas de construcción:** Gradle  
 
 **Características destacadas:**  
