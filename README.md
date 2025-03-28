@@ -64,7 +64,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 **Descripción:** La aplicación web permite a los profesores de Tecnologías Web notificar avisos a sus alumnos.
 
-**Tecnologías:** HTML, CSS, PHP, JavaScript, jQuery y un entorno virtual LAMP(Linux, Apache, MySQL y PHP).  
+**Tecnologías:** HTML, CSS, PHP, JavaScript, jQuery y un entorno virtual LAMP (Linux, Apache, MySQL y PHP).  
 
 **Objetivo:** Aprender a desarrollar una aplicación web básica y a prepar el entorno virtual de desarrollo.   
 
