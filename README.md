@@ -108,8 +108,8 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 Soy un desarrollador en constante aprendizaje, con interés en desarrollo de aplicaciones web y móviles, inteligencia artificial, ciberseguridad y tecnología blockchain. En este portafolio encontrarás desde prácticas básicas hasta proyectos más avanzados, reflejando mi evolución en este duro pero bonito camino.  
 
 ## 📫 Contacto
-- **LinkedIn:** [Mi Perfil de LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/)  
-- **Correo Electrónico:** [Mi correo electrónico](mailto:alfredo.sobrados.gonzalez@gmail.com)
+- 💼 **LinkedIn:** [Mi Perfil de LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/)  
+- 📧 **Contacto:** [Mi correo electrónico](mailto:alfredo.sobrados.gonzalez@gmail.com)
 
 ¡Gracias por visitar mi portafolio! 😊
 
