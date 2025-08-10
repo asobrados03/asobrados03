@@ -6,7 +6,7 @@
 
 ### 1. [Human Perform Mobile App](https://github.com/asobrados03/HumanPerformMobileApp)
 
-**Descripción:** Aplicación móvil multiplataforma para la gestión integral de un centro deportivo, desarrollada durante mis prácticas en **Fransdata Tech Ventures**. Incluye autenticación segura con JWT, gestión avanzada de perfiles con fotos, sistema de entrenadores y favoritos, y un diseño moderno con Material Design 3.
+**Descripción:** Aplicación móvil multiplataforma para la gestión integral de un centro deportivo, desarrollada durante mis prácticas en **Fransdata Tech Ventures** en un equipo de tres desarrolladores. Incluye autenticación segura con JWT, gestión avanzada de perfiles con fotos, sistema de entrenadores y favoritos, y un diseño moderno con Material Design 3.
 **Tecnologías:** Kotlin Multiplatform Mobile (KMM), Jetpack Compose, Ktor Client, Node.js, Express.js y MariaDB.
 **Objetivo:** Desarrollar e implementar funcionalidades completas en una app real en producción, optimizando la arquitectura con Clean Architecture y principios hexagonales, reutilizando un 80% del código entre Android e iOS.
 **Características destacadas:**
