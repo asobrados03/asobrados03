@@ -4,7 +4,24 @@
 
 ## 📂 Índice de Proyectos
 
-### 1. [Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)
+Perfecto, ya entiendo.
+Quieres algo breve, coherente con el estilo de tus otros proyectos, pero que resuma el **Human Perform Mobile App** y lo ponga el primero en tu portafolio.
+Podría quedar así:
+
+---
+
+### 1. [Human Perform Mobile App](https://github.com/asobrados03/HumanPerformMobileApp)
+
+**Descripción:** Aplicación móvil multiplataforma para la gestión integral de un centro deportivo, desarrollada durante mis prácticas en **Fransdata Tech Ventures**. Incluye autenticación segura con JWT, gestión avanzada de perfiles con fotos, sistema de entrenadores y favoritos, y un diseño moderno con Material Design 3.
+**Tecnologías:** Kotlin Multiplatform Mobile (KMM), Jetpack Compose, Ktor Client, Node.js, Express.js y MariaDB.
+**Objetivo:** Desarrollar e implementar funcionalidades completas en una app real en producción, optimizando la arquitectura con Clean Architecture y principios hexagonales, reutilizando un 80% del código entre Android e iOS.
+**Características destacadas:**
+* Funcionalidades principales: Registro y login seguro con JWT + refresh tokens, persistencia cifrada de datos, gestión de perfiles con carga/edición de imagen, catálogo de entrenadores y sistema de favoritos, interfaz responsive y accesible con tema oscuro.
+* Qué aprendí: Implementar Clean Architecture con principios hexagonales en un entorno multiplataforma, desarrollar APIs REST seguras en Node.js, optimizar flujo de datos unidireccional y coordinar trabajo en equipo en un proyecto real en producción.
+
+---
+
+### 2. [Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)
 
 **Descripción:** Finanzas Personales es una aplicación Android, diseñada para facilitar la gestión de tus finanzas personales. Implementa la arquitectura MVVM (Model-View-ViewModel) junto con el patrón Repository para garantizar un diseño modular, escalable y fácilmente mantenible. Esta app es mi Práctica Final de Plataformas de Software Móviles.  
 
@@ -16,7 +33,7 @@
 
 ---
 
-### 2. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)  
+### 3. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)  
 **Descripción:**  
 HotelManagementAPI es una API RESTful diseñada para gestionar un hotel, permitiendo la administración de clientes, habitaciones, reservas, pagos y administradores. Implementa autenticación con JWT y sigue una arquitectura limpia para separar la lógica de negocio, la infraestructura y los adaptadores.  
 
@@ -50,7 +67,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 3. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
+### 4. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
 
 **Descripción:** Este proyecto implementa un sistema de gestión para un Centro de Convenciones utilizando los principios de la Programación Orientada a Objetos (POO) y varios patrones de diseño. Proporciona funcionalidades para gestionar espacios, reservas, productos y aspectos económicos del centro.  
 
@@ -60,7 +77,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 4. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
+### 5. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
 
 **Descripción:** La aplicación web permite a los profesores de Tecnologías Web notificar avisos a sus alumnos.
 
@@ -70,7 +87,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 5. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
+### 6. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
 
 **Descripción:** Ejercicios y ejemplos prácticos de estructuras de datos en Java.  
 
@@ -81,7 +98,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 6. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
+### 7. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
 
 **Descripción:** Ejercicios prácticos para entender conceptos fundamentales de los Sistemas Distribuidos. 
 
@@ -94,7 +111,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 7. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
+### 8. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
 
 **Descripción:** Este práctica final es una replica del mítico juego Arkanoid desarrollado en Java.
 
