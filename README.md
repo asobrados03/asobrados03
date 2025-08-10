@@ -4,12 +4,6 @@
 
 ## 📂 Índice de Proyectos
 
-Perfecto, ya entiendo.
-Quieres algo breve, coherente con el estilo de tus otros proyectos, pero que resuma el **Human Perform Mobile App** y lo ponga el primero en tu portafolio.
-Podría quedar así:
-
----
-
 ### 1. [Human Perform Mobile App](https://github.com/asobrados03/HumanPerformMobileApp)
 
 **Descripción:** Aplicación móvil multiplataforma para la gestión integral de un centro deportivo, desarrollada durante mis prácticas en **Fransdata Tech Ventures**. Incluye autenticación segura con JWT, gestión avanzada de perfiles con fotos, sistema de entrenadores y favoritos, y un diseño moderno con Material Design 3.
