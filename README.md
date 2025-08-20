@@ -13,7 +13,7 @@
 **Objetivo:** Desarrollar e implementar funcionalidades completas en una app real en producción, optimizando la arquitectura con Clean Architecture y principios hexagonales, reutilizando un 80% del código entre Android e iOS.
 
 **Características destacadas:**
-- Funcionalidades principales: Registro y login seguro con JWT + refresh tokens, persistencia cifrada de datos, gestión de perfiles con carga/edición de imagen, catálogo de entrenadores y sistema de favoritos, interfaz responsive y accesible con tema oscuro.
+- Funcionalidades principales: Registro y login seguro con JWT + refresh tokens, persistencia cifrada de datos, gestión de perfiles con carga/edición de imagen, selección de entrenador/profesional del deporte favorito, interfaz responsive y accesible con tema oscuro.
 - Qué aprendí: Implementar Clean Architecture con principios hexagonales en un entorno multiplataforma, desarrollar APIs REST seguras en Node.js, optimizar flujo de datos unidireccional y coordinar trabajo en equipo en un proyecto real en producción.
 
 ---
