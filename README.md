@@ -18,7 +18,28 @@
 
 ---
 
-### 2. [Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)
+### 2. [Landing Page: Geotecnia y Servicios](https://github.com/asobrados03/geotecnia-servicios-landing)
+
+**Descripción:** Landing page profesional para empresa de ingeniería geotécnica con sistema completo de generación de leads. La página presenta servicios (estudios geotécnicos, sondeos, ensayos) y cuenta con un formulario de contacto que activa un flujo automatizado de notificaciones por email y almacenamiento de datos.
+
+**Tecnologías:** React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui, Zod, React Hook Form, Vercel (hosting + serverless functions), Supabase (PostgreSQL), Resend (emails), Google reCAPTCHA v3.
+
+**Características destacadas:**
+- **Arquitectura Jamstack** con frontend estático y backend serverless completamente separados
+- **Sistema anti-spam multicapa** con reCAPTCHA v3 invisible + campo honeypot oculto
+- **Validación consistente** usando esquemas Zod compartidos entre cliente y servidor
+- **Flujo automatizado completo**: validación → verificación captcha → almacenamiento BD → envío de emails (notificación + confirmación)
+- **Optimización de rendimiento** con lazy loading de imágenes, code splitting y CDN de Vercel
+- **Manejo robusto de errores** con feedback inmediato al usuario y logging detallado
+- **Escalabilidad automática** gracias a funciones serverless y servicios cloud gestionados
+
+**API REST documentada:** Endpoint `POST /api/contact` con validación de entrada, verificación reCAPTCHA, persistencia en Supabase y envío de correos transaccionales. Incluye pruebas unitarias completas con Vitest.
+
+**Implementé:** Integración completa de servicios externos, validación de formularios robusta, arquitectura serverless escalable, y sistema de notificaciones automáticas end-to-end.
+
+---
+
+### 3. [Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)
 
 **Descripción:** Finanzas Personales es una aplicación Android, diseñada para facilitar la gestión de tus finanzas personales. Implementa la arquitectura MVVM (Model-View-ViewModel) junto con el patrón Repository para garantizar un diseño modular, escalable y fácilmente mantenible. Esta app es mi Práctica Final de Plataformas de Software Móviles.  
 
@@ -30,7 +51,7 @@
 
 ---
 
-### 3. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)  
+### 4. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)  
 **Descripción:**  
 HotelManagementAPI es una API RESTful diseñada para gestionar un hotel, permitiendo la administración de clientes, habitaciones, reservas, pagos y administradores. Implementa autenticación con JWT y sigue una arquitectura limpia para separar la lógica de negocio, la infraestructura y los adaptadores.  
 
@@ -64,7 +85,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 4. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
+### 5. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
 
 **Descripción:** Este proyecto implementa un sistema de gestión para un Centro de Convenciones utilizando los principios de la Programación Orientada a Objetos (POO) y varios patrones de diseño. Proporciona funcionalidades para gestionar espacios, reservas, productos y aspectos económicos del centro.  
 
@@ -74,7 +95,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 5. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
+### 6. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
 
 **Descripción:** La aplicación web permite a los profesores de Tecnologías Web notificar avisos a sus alumnos.
 
@@ -84,7 +105,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 6. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
+### 7. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
 
 **Descripción:** Ejercicios y ejemplos prácticos de estructuras de datos en Java.  
 
@@ -95,7 +116,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 7. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
+### 8. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
 
 **Descripción:** Ejercicios prácticos para entender conceptos fundamentales de los Sistemas Distribuidos. 
 
@@ -108,7 +129,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 8. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
+### 9. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
 
 **Descripción:** Este práctica final es una replica del mítico juego Arkanoid desarrollado en Java.
 
