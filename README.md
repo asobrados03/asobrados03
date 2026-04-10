@@ -4,17 +4,40 @@
 
 ## 📂 Índice de Proyectos
 
-### 1. [Human Perform Mobile App](https://github.com/asobrados03/HumanPerformMobileApp)
+### 1. Human Perform Platform  
+🔗 Mobile App: [HumanPerformApp](https://github.com/asobrados03/HumanPerformApp)  
+🔗 REST API Backend: [api_rest_human_app](https://github.com/asobrados03/api_rest_human_app)
 
-**Descripción:** Aplicación móvil multiplataforma para la gestión integral de un centro deportivo, desarrollada durante mis prácticas en **Fransdata Tech Ventures** en un equipo de tres desarrolladores. Incluye autenticación segura con JWT, gestión avanzada de perfiles con fotos, sistema de entrenadores y favoritos, y un diseño moderno con Material Design 3.
+**Descripción:**  
+Plataforma completa para la gestión integral de un centro deportivo, desarrollada como proyecto real durante mis prácticas en **Fransdata Tech Ventures** y posteriormente ampliada y finalizada como **Trabajo Final de Grado (TFG)**.  
+El sistema está compuesto por una aplicación móvil multiplataforma (Android/iOS) y una API REST segura y escalable que centraliza la lógica de negocio y acceso a datos.
 
-**Tecnologías:** Kotlin Multiplatform Mobile (KMM), Jetpack Compose, Swift/SwiftUI, Ktor Client, Node.js, Express.js y MariaDB.
+**Tecnologías:**  
+- Frontend: Kotlin Multiplatform Mobile (KMM), Jetpack Compose, SwiftUI  
+- Backend: Node.js, Express.js  
+- Base de datos: MariaDB  
+- Seguridad: JWT + Refresh Tokens  
+- Arquitectura: Clean Architecture + Hexagonal Architecture
 
-**Objetivo:** Desarrollar e implementar funcionalidades completas en una app real en producción, optimizando la arquitectura con Clean Architecture y principios hexagonales, reutilizando un 80% del código entre Android e iOS.
+**Objetivo:**  
+Diseñar e implementar una solución software multiplataforma real en producción, reutilizando más del 70% del código entre Android e iOS y separando claramente frontend y backend mediante arquitectura desacoplada.
 
-**Características destacadas:**
-- Funcionalidades principales: Registro y login seguro con JWT + refresh tokens, persistencia cifrada de datos, gestión de perfiles con carga/edición de imagen, selección de entrenador/profesional del deporte favorito, interfaz responsive y accesible con tema oscuro.
-- Qué aprendí: Implementar Clean Architecture con principios hexagonales en un entorno multiplataforma, desarrollar APIs REST seguras en Node.js, optimizar flujo de datos unidireccional y coordinar trabajo en equipo en un proyecto real en producción.
+**Características destacadas:**  
+- Registro e inicio de sesión seguro con JWT  
+- Persistencia cifrada de sesión y credenciales  
+- Gestión avanzada de perfiles con subida/edición de imágenes  
+- Sistema de entrenadores/profesionales favoritos  
+- Backend REST desacoplado con autenticación robusta  
+- Interfaz moderna responsive con Material Design 3 y soporte dark mode  
+
+**Qué aprendí:**  
+- Desarrollo full-stack móvil + backend en entorno real  
+- Diseño de APIs REST seguras y escalables con Node.js  
+- Integración KMM compartiendo lógica entre Android/iOS  
+- Aplicación práctica de Clean Architecture y principios hexagonales  
+- Gestión de un proyecto académico-profesional de gran escala como TFG  
+
+📄 Documentación académica (TFG): Próximamente disponible
 
 ---
 
