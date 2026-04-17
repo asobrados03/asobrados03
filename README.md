@@ -1,6 +1,6 @@
 # 💻 Portafolio de Programación
 
-¡Hola! 👋 Soy Alfredo Sobrados, apasionado por la programación, la tecnología y el desarrollo de software. Esto es una recopilación de proyectos y prácticas académicas y extraacadémicas que reflejan mi progreso, aprendizajes y habilidades en diversas tecnologías. 🚀  
+¡Hola! 👋 Soy Alfredo Sobrados, desarrollador full-stack con experiencia en mobile, backend y web. Me especializo en construir software bien estructurado — desde APIs REST con arquitectura hexagonal hasta apps multiplataforma con Kotlin Multiplatform. Este portafolio recoge proyectos reales, personales y académicos que documentan mi evolución: código preparado para producción, un TFG con origen en prácticas profesionales, y muchas horas de aprendizaje autodidacta. Siempre buscando el siguiente reto. 🚀 
 
 ## 📂 Índice de Proyectos
 
