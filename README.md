@@ -37,7 +37,7 @@ Diseñar e implementar una solución software multiplataforma real en producció
 - Aplicación práctica de Clean Architecture y principios hexagonales  
 - Gestión de un proyecto académico-profesional de gran escala como TFG  
 
-📄 Documentación académica (TFG): Próximamente disponible
+📄 Documentación académica (TFG): [https://uvadoc.uva.es/handle/10324/84418](https://uvadoc.uva.es/handle/10324/84418)
 
 ---
 
