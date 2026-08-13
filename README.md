@@ -43,7 +43,7 @@ Diseñar e implementar una solución software multiplataforma real en producció
 
 ### 2. [Landing Page: Geotecnia y Servicios](https://github.com/asobrados03/geotecnia-servicios-landing)
 
-**Descripción:** Landing page profesional para empresa de ingeniería geotécnica con sistema completo de generación de leads. La página presenta servicios, proyectos, galería de trabajos y un formulario de contacto que activa un flujo automatizado de notificaciones por email, con archivado opcional en base de datos.
+**Descripción:** Landing page profesional para un geólogo autónomo con sistema completo de generación de leads. La página presenta servicios, proyectos, galería de trabajos y un formulario de contacto que activa un flujo automatizado de notificaciones por email, con archivado opcional en base de datos.
 
 **Tecnologías:** React 19, TypeScript, Vite, Tailwind CSS, shadcn/ui, Zod, Vercel (hosting + serverless functions), Supabase (PostgreSQL, archivado opcional), Resend (emails), Google reCAPTCHA v3, Vitest.
 
