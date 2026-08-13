@@ -43,22 +43,23 @@ Diseñar e implementar una solución software multiplataforma real en producció
 
 ### 2. [Landing Page: Geotecnia y Servicios](https://github.com/asobrados03/geotecnia-servicios-landing)
 
-**Descripción:** Landing page profesional para empresa de ingeniería geotécnica con sistema completo de generación de leads. La página presenta servicios (estudios geotécnicos, sondeos, ensayos) y cuenta con un formulario de contacto que activa un flujo automatizado de notificaciones por email y almacenamiento de datos.
+**Descripción:** Landing page profesional para empresa de ingeniería geotécnica con sistema completo de generación de leads. La página presenta servicios, proyectos, galería de trabajos y un formulario de contacto que activa un flujo automatizado de notificaciones por email, con archivado opcional en base de datos.
 
-**Tecnologías:** React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui, Zod, React Hook Form, Vercel (hosting + serverless functions), Supabase (PostgreSQL), Resend (emails), Google reCAPTCHA v3.
+**Tecnologías:** React 19, TypeScript, Vite, Tailwind CSS, shadcn/ui, Zod, Vercel (hosting + serverless functions), Supabase (PostgreSQL, archivado opcional), Resend (emails), Google reCAPTCHA v3, Vitest.
 
 **Características destacadas:**
-- **Arquitectura Jamstack** con frontend estático y backend serverless completamente separados
+- **Arquitectura Jamstack** con frontend estático y backend serverless separado
 - **Sistema anti-spam multicapa** con reCAPTCHA v3 invisible + campo honeypot oculto
 - **Validación consistente** usando esquemas Zod compartidos entre cliente y servidor
-- **Flujo automatizado completo**: validación → verificación captcha → almacenamiento BD → envío de emails (notificación + confirmación)
-- **Optimización de rendimiento** con lazy loading de imágenes, code splitting y CDN de Vercel
+- **Flujo automatizado completo**: validación → verificación captcha → envío de emails → archivado opcional en Supabase
+- **Continuidad del lead sin dependencia de Supabase**: si la base de datos no está configurada o falla, el contacto sigue procesándose por email
+- **Optimización de rendimiento** con lazy loading de imágenes, importación automática de galería y despliegue en Vercel
 - **Manejo robusto de errores** con feedback inmediato al usuario y logging detallado
 - **Escalabilidad automática** gracias a funciones serverless y servicios cloud gestionados
 
-**API REST documentada:** Endpoint `POST /api/contact` con validación de entrada, verificación reCAPTCHA, persistencia en Supabase y envío de correos transaccionales. Incluye pruebas unitarias completas con Vitest.
+**API REST documentada:** Endpoint `POST /api/contact` con validación de entrada, verificación reCAPTCHA, envío de correos transaccionales mediante Resend y persistencia best-effort en Supabase. Incluye pruebas unitarias completas con Vitest.
 
-**Implementé:** Integración completa de servicios externos, validación de formularios robusta, arquitectura serverless escalable, y sistema de notificaciones automáticas end-to-end.
+**Implementé:** Integración completa de servicios externos, validación robusta de formularios, arquitectura serverless escalable y sistema de notificaciones automáticas end-to-end.
 
 ---
 
