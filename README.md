@@ -1,6 +1,6 @@
 # 💻 Portafolio de Programación
 
-¡Hola! 👋 Soy Alfredo Sobrados, desarrollador full-stack con experiencia en mobile, backend y web. Me especializo en construir software bien estructurado — desde APIs REST con arquitectura hexagonal hasta apps multiplataforma con Kotlin Multiplatform. Este portafolio recoge proyectos reales, personales y académicos que documentan mi evolución: código preparado para producción, un TFG con origen en prácticas profesionales, y muchas horas de aprendizaje autodidacta. Siempre buscando el siguiente reto. 🚀 
+¡Hola! 👋 Soy Alfredo Sobrados, ingeniero de software con experiencia en mobile, backend y web. Me especializo en construir software bien estructurado — desde APIs REST con arquitectura hexagonal hasta apps multiplataforma con Kotlin Multiplatform. Este portafolio recoge proyectos reales, personales y académicos que documentan mi evolución: código preparado para producción, un TFG con origen en prácticas profesionales, y muchas horas de aprendizaje autodidacta. Siempre buscando el siguiente reto. 🚀 
 
 ## 📂 Índice de Proyectos
 
