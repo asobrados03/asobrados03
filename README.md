@@ -76,35 +76,50 @@ Diseñar e implementar una solución software multiplataforma real, reutilizando
 ---
 
 ### 4. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)  
-**Descripción:**  
-HotelManagementAPI es una API RESTful diseñada para gestionar un hotel, permitiendo la administración de clientes, habitaciones, reservas, pagos y administradores. Implementa autenticación con JWT y sigue una arquitectura limpia para separar la lógica de negocio, la infraestructura y los adaptadores.  
 
-**Motivación:**  
-Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque la comunidad ya no está activa, decidí desarrollarlo y publicarlo por mi cuenta como una oportunidad para mejorar mis habilidades en el diseño de APIs RESTful, el manejo de bases de datos con JDBC y la aplicación de buenas prácticas en arquitectura de software.  
+**Descripción:**\
+HotelManagementAPI es una API RESTful para la gestión de un hotel, permitiendo administrar clientes, habitaciones, reservas, pagos, usuarios y administradores. Implementa autenticación y autorización con JWT, persistencia con JDBC directo sobre MariaDB y una arquitectura limpia de estilo hexagonal que separa dominio, casos de uso, adaptadores e infraestructura. Además, incorpora Redis para caché de disponibilidad de habitaciones y RabbitMQ para publicar eventos de reserva consumidos por un worker de notificaciones.
 
-**Tecnologías:**  
-- **Lenguaje y Framework:** Java 21+ con Spring Boot  
-- **Seguridad:** Spring Security con JWT  
-- **Base de Datos:** MariaDB en Docker  
-- **Persistencia:** JDBC (sin ORM)  
-- **Contenedores:** Docker para la base de datos y Adminer  
-- **Documentación:** Swagger/OpenAPI  
-- **Pruebas:** JUnit5, Mockito, Testcontainers y Postman 
-- **Herramientas de construcción:** Gradle  
+**Motivación:**\
+Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque la comunidad ya no está activa, decidí desarrollarlo y publicarlo por mi cuenta como una oportunidad para mejorar mis habilidades en el diseño de APIs RESTful, el manejo de bases de datos con JDBC, la aplicación de buenas prácticas de arquitectura y la integración de componentes habituales en sistemas reales, como caché, mensajería asíncrona y servicios desacoplados.
 
-**Características destacadas:**  
-- CRUD completo para clientes, habitaciones, reservas, pagos y administradores.  
-- Implementación de autenticación y autorización con JWT.  
-- Uso de JDBC en lugar de ORM para mayor control sobre las consultas SQL.  
-- Arquitectura limpia y modular basada en principios hexagonales.  
-- Configuración con Docker para facilitar la instalación y ejecución.  
-- Documentación interactiva con Swagger/OpenAPI.  
-- Pruebas unitarias y de integración para garantizar la estabilidad del sistema.  
+**Tecnologías:**
+
+- **Lenguaje y Framework:** Java 21 con Spring Boot 3.4.1
+- **Seguridad:** Spring Security con JWT y control de acceso por roles
+- **Base de Datos:** MariaDB en Docker
+- **Persistencia:** JDBC directo, sin ORM
+- **Caché:** Redis con Spring Cache
+- **Mensajería:** RabbitMQ con Spring AMQP
+- **Notificaciones:** Spring Mail y Thymeleaf en el módulo `notification-worker`
+- **Contenedores:** Docker para MariaDB, Adminer, Redis y RabbitMQ
+- **Documentación:** Swagger/OpenAPI
+- **Pruebas:** JUnit5, Mockito, Spring Security Test, Testcontainers y Postman
+- **Herramientas de construcción:** Gradle
+
+**Características destacadas:**
+
+- CRUD para clientes, habitaciones, reservas, pagos y administradores.
+- Autenticación y autorización con JWT mediante roles `CLIENT`, `ADMIN` y `SUPERADMIN`.
+- Endpoints públicos para consulta de habitaciones disponibles y filtrado por tipo.
+- Uso de JDBC en lugar de ORM para mayor control sobre las consultas SQL.
+- Arquitectura limpia y modular basada en principios hexagonales.
+- Caché con Redis para optimizar la consulta de disponibilidad de habitaciones.
+- Publicación de eventos con RabbitMQ al crear reservas.
+- Worker independiente para enviar emails HTML de confirmación de reserva.
+- Sistema de reintentos con backoff y Dead Letter Queue para notificaciones fallidas.
+- Documentación interactiva con Swagger/OpenAPI.
+- Pruebas unitarias, de controlador, persistencia e integración para garantizar la estabilidad del sistema.
 
 **¿Qué aprendí con este proyecto?**
-- Profundicé en la arquitectura hexagonal y su aplicación en APIs REST.  
-- Mejoré el manejo de bases de datos sin ORM utilizando JDBC.  
-- Implementé autenticación segura con JWT en Spring Boot.  
+
+- Profundicé en la arquitectura hexagonal y su aplicación en APIs REST.
+- Mejoré el manejo de bases de datos sin ORM utilizando JDBC.
+- Implementé autenticación segura con JWT y autorización basada en roles en Spring Boot.
+- Apliqué caché con Redis para mejorar el rendimiento de consultas frecuentes.
+- Integré RabbitMQ para desacoplar procesos mediante eventos.
+- Creé un worker independiente para procesar notificaciones de reservas.
+- Reforcé la calidad del proyecto con pruebas unitarias, de integración y Testcontainers.
 - Aprendí a optimizar la estructura del código para mejorar la mantenibilidad y escalabilidad.  
 
 ---
