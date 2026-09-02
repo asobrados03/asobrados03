@@ -20,7 +20,7 @@ El sistema está compuesto por una aplicación móvil multiplataforma (Android/i
 - Arquitectura: Clean Architecture + Hexagonal Architecture
 
 **Objetivo:**  
-Diseñar e implementar una solución software multiplataforma real en producción, reutilizando más del 70% del código entre Android e iOS y separando claramente frontend y backend mediante arquitectura desacoplada.
+Diseñar e implementar una solución software multiplataforma real, reutilizando más del 70% del código entre Android e iOS y separando claramente frontend y backend mediante arquitectura desacoplada.
 
 **Características destacadas:**  
 - Registro e inicio de sesión seguro con JWT  
