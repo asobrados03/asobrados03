@@ -63,7 +63,22 @@ Diseñar e implementar una solución software multiplataforma real, reutilizando
 
 ---
 
-### 3. [Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)
+### 3. [Energy Deficit](https://github.com/asobrados03/energy-deficit)
+
+**Descripción:** Herramienta CLI en Python que calcula la energía adicional necesaria para cubrir la demanda eléctrica española cuando la generación eólica es la única fuente disponible. Procesa una serie de demanda a intervalos de cinco minutos y la alinea con datos públicos de generación eólica de ESIOS/REE.
+
+**Tecnologías:** Python 3.11+, `zoneinfo`, `argparse`, CSV, API HTTP de ESIOS/REE y `unittest`.
+
+**Características destacadas:**
+- Reconstrucción trazable de huecos de demanda mediante interpolación lineal.
+- Manejo explícito del cambio horario CET/CEST y normalización de todas las marcas a UTC.
+- Conversión consistente entre energía (kWh/MWh) y potencia media (MW) para calcular el déficit por intervalo.
+- Exportación de resultados auditables a CSV con granularidad de cinco minutos, minuto, hora y día.
+- Arquitectura modular que separa dominio, E/S, cliente ESIOS y CLI; suite de pruebas unitarias e integración sin dependencia de red.
+
+---
+
+### 4. [Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)
 
 **Descripción:** Finanzas Personales es una aplicación Android, diseñada para facilitar la gestión de tus finanzas personales. Implementa la arquitectura MVVM (Model-View-ViewModel) junto con el patrón Repository para garantizar un diseño modular, escalable y fácilmente mantenible. Esta app es mi Práctica Final de Plataformas de Software Móviles.  
 
@@ -75,7 +90,7 @@ Diseñar e implementar una solución software multiplataforma real, reutilizando
 
 ---
 
-### 4. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)  
+### 5. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)
 
 **Descripción:**\
 HotelManagementAPI es una API RESTful para la gestión de un hotel, permitiendo administrar clientes, habitaciones, reservas, pagos, usuarios y administradores. Implementa autenticación y autorización con JWT, persistencia con JDBC directo sobre MariaDB y una arquitectura limpia de estilo hexagonal que separa dominio, casos de uso, adaptadores e infraestructura. Además, incorpora Redis para caché de disponibilidad de habitaciones y RabbitMQ para publicar eventos de reserva consumidos por un worker de notificaciones.
@@ -124,7 +139,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 5. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
+### 6. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
 
 **Descripción:** Este proyecto implementa un sistema de gestión para un Centro de Convenciones utilizando los principios de la Programación Orientada a Objetos (POO) y varios patrones de diseño. Proporciona funcionalidades para gestionar espacios, reservas, productos y aspectos económicos del centro.  
 
@@ -134,7 +149,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 6. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
+### 7. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
 
 **Descripción:** La aplicación web permite a los profesores de Tecnologías Web notificar avisos a sus alumnos.
 
@@ -144,7 +159,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 7. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
+### 8. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
 
 **Descripción:** Ejercicios y ejemplos prácticos de estructuras de datos en Java.  
 
@@ -155,7 +170,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 8. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
+### 9. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
 
 **Descripción:** Ejercicios prácticos para entender conceptos fundamentales de los Sistemas Distribuidos. 
 
@@ -168,7 +183,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 9. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
+### 10. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
 
 **Descripción:** Este práctica final es una replica del mítico juego Arkanoid desarrollado en Java.
 
