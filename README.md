@@ -194,7 +194,9 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 ---
 
 ## 🌱 Sobre mí
-Soy un desarrollador en constante aprendizaje, con interés en desarrollo de aplicaciones web y móviles, inteligencia artificial, ciberseguridad y tecnología blockchain. En este portafolio encontrarás desde prácticas básicas hasta proyectos más avanzados, reflejando mi evolución en este duro pero bonito camino.  
+Soy ingeniero informático especializado en desarrollo backend y arquitecturas escalables — Java, Kotlin, Spring Boot y Node.js, con experiencia real diseñando APIs REST bajo Clean Architecture y arquitectura hexagonal. Me interesa especialmente el diseño de sistemas mantenibles: separación clara de responsabilidades, testing en profundidad y decisiones técnicas que se puedan defender, no solo justificar.
+
+En este portafolio encontrarás proyectos que reflejan esa forma de trabajar, desde una API de gestión hotelera con Redis y RabbitMQ hasta una plataforma multiplataforma completa desarrollada de forma independiente.
 
 ## 📫 Contacto
 - 💼 **LinkedIn:** [Mi Perfil de LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/)  
