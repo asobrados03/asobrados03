@@ -63,7 +63,32 @@ Diseñar e implementar una solución software multiplataforma real, reutilizando
 
 ---
 
-### 3. [Energy Deficit](https://github.com/asobrados03/energy-deficit)
+### 3. [Banana Bank — experiencia de hackathon](https://github.com/asobrados03/banana-bank-hackathon-case-study)
+
+**Descripción:**  
+Caso de estudio desarrollado durante un reto técnico de [**T·dots**](https://tdots.es/) sobre una aplicación bancaria ficticia con asistente de IA. Partiendo de la base proporcionada por la organización, analicé comportamientos de riesgo en operaciones sensibles y construí mejoras centradas en seguridad, recuperación ante fallos y trazabilidad de respuestas del agente.
+
+**Tecnologías:** TypeScript, React, Next.js, SQLite, Node.js, OpenAI API, pruebas automatizadas y recuperación de información.
+
+**Características destacadas:**
+- Flujo de transferencias en dos pasos: propuesta revisable y confirmación explícita antes de ejecutar la operación.
+- Prevención de pagos duplicados mediante idempotencia y reutilización de referencias bancarias ante reintentos o respuestas perdidas.
+- Protección de la interfaz frente a clics repetidos durante operaciones en curso.
+- Corrección del flujo de conversaciones nuevas para evitar errores al alternar entre historial y una conversación vacía.
+- Funcionalidad de IA para comparar versiones históricas y vigentes de políticas bancarias, mostrando fechas y fuentes de evidencia.
+- Pruebas de invariantes de negocio y validación manual mediante escenarios de fallo simulados.
+
+**Qué aprendí:**
+- Diseñar flujos seguros para acciones sensibles, combinando confirmación explícita, idempotencia y recuperación ante fallos.
+- Priorizar problemas técnicos según su impacto real sobre el usuario y el negocio.
+- Mejorar la fiabilidad de un agente de IA con recuperación determinista de fuentes y evidencia visible.
+- Documentar decisiones técnicas y presentar una solución de forma clara mediante demo y caso de estudio.
+
+🎥 Incluye [demo en vídeo](https://github.com/asobrados03/banana-bank-hackathon-case-study/blob/main/demo.mp4) y [documentación de apoyo](https://github.com/asobrados03/banana-bank-hackathon-case-study/blob/main/documentacion-previa-hackathon.pdf).
+
+---
+
+### 4. [Energy Deficit](https://github.com/asobrados03/energy-deficit)
 
 **Descripción:** Herramienta CLI en Python que calcula la energía adicional necesaria para cubrir la demanda eléctrica española cuando la generación eólica es la única fuente disponible. Procesa una serie de demanda a intervalos de cinco minutos y la alinea con datos públicos de generación eólica de ESIOS/REE.
 
@@ -78,7 +103,7 @@ Diseñar e implementar una solución software multiplataforma real, reutilizando
 
 ---
 
-### 4. [Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)
+### 5. [Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)
 
 **Descripción:** Finanzas Personales es una aplicación Android, diseñada para facilitar la gestión de tus finanzas personales. Implementa la arquitectura MVVM (Model-View-ViewModel) junto con el patrón Repository para garantizar un diseño modular, escalable y fácilmente mantenible. Esta app es mi Práctica Final de Plataformas de Software Móviles.  
 
@@ -90,7 +115,7 @@ Diseñar e implementar una solución software multiplataforma real, reutilizando
 
 ---
 
-### 5. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)
+### 6. [App: HotelManagementAPI](https://github.com/asobrados03/HotelManagementAPI)
 
 **Descripción:**\
 HotelManagementAPI es una API RESTful para la gestión de un hotel, permitiendo administrar clientes, habitaciones, reservas, pagos, usuarios y administradores. Implementa autenticación y autorización con JWT, persistencia con JDBC directo sobre MariaDB y una arquitectura limpia de estilo hexagonal que separa dominio, casos de uso, adaptadores e infraestructura. Además, incorpora Redis para caché de disponibilidad de habitaciones y RabbitMQ para publicar eventos de reserva consumidos por un worker de notificaciones.
@@ -139,7 +164,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 6. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
+### 7. [Práctica Final: Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)
 
 **Descripción:** Este proyecto implementa un sistema de gestión para un Centro de Convenciones utilizando los principios de la Programación Orientada a Objetos (POO) y varios patrones de diseño. Proporciona funcionalidades para gestionar espacios, reservas, productos y aspectos económicos del centro.  
 
@@ -149,7 +174,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 7. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
+### 8. [Práctica Final: Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)
 
 **Descripción:** La aplicación web permite a los profesores de Tecnologías Web notificar avisos a sus alumnos.
 
@@ -159,7 +184,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 8. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
+### 9. [Prácticas sobre Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)
 
 **Descripción:** Ejercicios y ejemplos prácticos de estructuras de datos en Java.  
 
@@ -170,7 +195,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 9. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
+### 10. [Prácticas: Sistemas Distrubuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)
 
 **Descripción:** Ejercicios prácticos para entender conceptos fundamentales de los Sistemas Distribuidos. 
 
@@ -183,7 +208,7 @@ Este proyecto nació como un ejercicio de la comunidad Skool DeHaroHub. Aunque l
 
 ---
 
-### 10. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
+### 11. [Práctica Final: Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)
 
 **Descripción:** Este práctica final es una replica del mítico juego Arkanoid desarrollado en Java.
 
