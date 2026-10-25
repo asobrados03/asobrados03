@@ -26,7 +26,15 @@ Combina una aplicación para Android e iOS con una API REST propia. Destaca por 
 - [API REST](https://github.com/asobrados03/api_rest_human_app)
 - [Documentación del TFG](https://uvadoc.uva.es/handle/10324/84418)
 
-### 2. HotelManagementAPI
+### 2. Landing Page: Geotecnia y Servicios
+
+Aplicación web para presentar servicios de geotecnia y facilitar el contacto con potenciales clientes. El proyecto integra un formulario con validación, protección antispam, persistencia de datos y envío de notificaciones, conectando la interfaz con distintos servicios externos.
+
+**Tecnologías:** React, TypeScript, Vite, Tailwind CSS, shadcn/ui, React Hook Form, Zod, Supabase y Resend.
+
+[Consultar el repositorio](https://github.com/asobrados03/geotecnia-servicios-landing)
+
+### 3. HotelManagementAPI
 
 API REST para gestionar clientes, habitaciones, reservas, pagos y administradores. Un proyecto con el que profundizo en el diseño de servicios backend, la seguridad y la calidad del código.
 
@@ -35,16 +43,6 @@ Destaca por el uso de JDBC sin ORM, una arquitectura orientada a separar respons
 **Tecnologías:** Java, Spring Boot, Spring Security, JWT, JDBC, MariaDB, Docker, OpenAPI, JUnit 5 y Testcontainers.
 
 [Consultar el repositorio](https://github.com/asobrados03/HotelManagementAPI)
-
-### 3. Banana Bank — AI Banking Hackathon
-
-Caso de estudio de una experiencia bancaria ficticia con asistencia mediante IA. El foco está en los problemas de ingeniería que aparecen al gestionar operaciones sensibles: confirmación de transferencias, prevención de duplicados, recuperación ante fallos y trazabilidad de la información.
-
-Un proyecto centrado no solo en implementar funcionalidades, sino también en analizar estados, errores y escenarios límite.
-
-**Tecnologías:** TypeScript, React, Next.js, Node.js, SQLite y OpenAI API.
-
-[Consultar el repositorio](https://github.com/asobrados03/banana-bank-hackathon-case-study)
 
 ---
 
@@ -65,6 +63,7 @@ Un proyecto centrado no solo en implementar funcionalidades, sino también en an
 
 Además de los proyectos destacados, he desarrollado aplicaciones y ejercicios que me han permitido trabajar con diferentes tecnologías y reforzar mis fundamentos de ingeniería de software.
 
+- **[Banana Bank](https://github.com/asobrados03/banana-bank-hackathon-case-study)** — Caso de estudio de una experiencia bancaria ficticia con asistencia mediante IA. El foco está en los problemas de ingeniería que aparecen al gestionar operaciones sensibles: confirmación de transferencias, prevención de duplicados, recuperación ante fallos y trazabilidad de la información.
 - **[Energy Deficit](https://github.com/asobrados03/energy-deficit)** — Herramienta CLI en Python para analizar el déficit energético a partir de datos de generación eólica y demanda eléctrica.
 - **[Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)** — Aplicación Android en Kotlin y Jetpack Compose para gestionar ingresos, gastos, presupuestos y estadísticas, utilizando MVVM y Repository.
 - **[Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)** — Aplicación Java centrada en programación orientada a objetos y patrones de diseño.
