@@ -6,7 +6,7 @@ Desarrollo APIs y servicios backend con **Java, Spring Boot y Node.js**, prestan
 
 Me interesa construir software fácil de entender, probar y evolucionar, tomando decisiones técnicas que faciliten su mantenimiento a largo plazo.
 
-**[🌐 Portfolio web](https://alfredo-sobrados-portfolio.vercel.app/) · [💼 LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/) · [💻 GitHub](https://github.com/asobrados03)**
+**[🌐 Portfolio web](https://alfredo-sobrados-portfolio.vercel.app/) · [💼 LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/)
 
 ---
 
