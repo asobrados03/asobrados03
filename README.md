@@ -4,21 +4,21 @@
 
 Desarrollo APIs y servicios backend con **Java, Spring Boot y Node.js**, prestando especial atención a la seguridad, la arquitectura y las pruebas automatizadas. También tengo experiencia desarrollando aplicaciones multiplataforma con **Kotlin Multiplatform** para Android e iOS.
 
-Me interesa construir software fácil de entender, probar y evolucionar.
+Me interesa construir software fácil de entender, probar y evolucionar, tomando decisiones técnicas que faciliten su mantenimiento a largo plazo.
 
-**[🌐 Portfolio web](https://alfredo-sobrados-portfolio.vercel.app/) · [💼 LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/)**
+**[🌐 Portfolio web](https://alfredo-sobrados-portfolio.vercel.app/) · [💼 LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/) · [💻 GitHub](https://github.com/asobrados03)**
 
 ---
 
 ## Proyectos destacados
 
-Estos son tres proyectos que representan especialmente bien mi experiencia y mi forma de abordar los problemas técnicos. Puedes encontrar más información y contexto en mi portfolio web.
+Estos tres proyectos representan distintas facetas de mi experiencia: desarrollo multiplataforma, integración de servicios web y diseño de APIs backend. En mi [portfolio web](https://alfredo-sobrados-portfolio.vercel.app/) puedes conocer más detalles sobre mi trabajo.
 
 ### 1. Human Perform Platform
 
-Plataforma para la gestión de un centro deportivo, desarrollada durante mis prácticas profesionales y ampliada posteriormente como Trabajo Fin de Grado.
+Plataforma para la gestión integral de un centro deportivo, iniciada durante mis prácticas profesionales y ampliada posteriormente como Trabajo Fin de Grado (TFG).
 
-Combina una aplicación para Android e iOS con una API REST propia. Destaca por compartir más del 70 % del código entre plataformas y separar las responsabilidades mediante una arquitectura modular.
+Combina una aplicación multiplataforma para Android e iOS con una API REST desacoplada. Comparte más del 70 % del código entre ambas plataformas y aplica principios de Clean Architecture y arquitectura hexagonal.
 
 **Tecnologías:** Kotlin Multiplatform, Jetpack Compose, SwiftUI, Node.js, Express, MariaDB y JWT.
 
@@ -28,19 +28,21 @@ Combina una aplicación para Android e iOS con una API REST propia. Destaca por 
 
 ### 2. Landing Page: Geotecnia y Servicios
 
-Aplicación web para presentar servicios de geotecnia y facilitar el contacto con potenciales clientes. El proyecto integra un formulario con validación, protección antispam, persistencia de datos y envío de notificaciones, conectando la interfaz con distintos servicios externos.
+Landing page profesional para presentar servicios, proyectos y trabajos de geotecnia, con un sistema de contacto orientado a la captación de potenciales clientes.
 
-**Tecnologías:** React, TypeScript, Vite, Tailwind CSS, shadcn/ui, React Hook Form, Zod, Supabase y Resend.
+Integra un flujo de contacto de extremo a extremo: validación compartida entre cliente y servidor, protección antispam, envío de correos y archivado opcional de solicitudes. La arquitectura combina un frontend estático con funciones serverless y servicios externos.
+
+**Tecnologías:** React 19, TypeScript, Vite, Tailwind CSS, shadcn/ui, Zod, Vercel, Supabase, Resend, Google reCAPTCHA v3 y Vitest.
 
 [Consultar el repositorio](https://github.com/asobrados03/geotecnia-servicios-landing)
 
 ### 3. HotelManagementAPI
 
-API REST para gestionar clientes, habitaciones, reservas, pagos y administradores. Un proyecto con el que profundizo en el diseño de servicios backend, la seguridad y la calidad del código.
+API REST para gestionar clientes, habitaciones, reservas, pagos y administradores. Un proyecto personal con el que profundizo en el diseño de servicios backend seguros, la arquitectura y la calidad del código.
 
-Destaca por el uso de JDBC sin ORM, una arquitectura orientada a separar responsabilidades y pruebas automatizadas para validar el comportamiento de la aplicación.
+Utiliza JDBC directamente, sin ORM, y una arquitectura hexagonal que separa el dominio, los casos de uso y la infraestructura. También incorpora Redis para la caché de disponibilidad y RabbitMQ para desacoplar el procesamiento de notificaciones.
 
-**Tecnologías:** Java, Spring Boot, Spring Security, JWT, JDBC, MariaDB, Docker, OpenAPI, JUnit 5 y Testcontainers.
+**Tecnologías:** Java 21, Spring Boot, Spring Security, JWT, JDBC, MariaDB, Redis, RabbitMQ, Docker, OpenAPI, JUnit 5, Mockito y Testcontainers.
 
 [Consultar el repositorio](https://github.com/asobrados03/HotelManagementAPI)
 
@@ -52,39 +54,42 @@ Destaca por el uso de JDBC sin ORM, una arquitectura orientada a separar respons
 |---|---|
 | Backend | Java, Spring Boot, Node.js, Express, APIs REST |
 | Arquitectura y calidad | Arquitectura hexagonal, Clean Architecture, separación de responsabilidades, pruebas automatizadas |
-| Seguridad | Spring Security, autenticación JWT |
-| Bases de datos | SQL, MariaDB, SQLite |
+| Seguridad | Spring Security, autenticación y autorización con JWT |
+| Bases de datos | SQL, MariaDB, PostgreSQL, SQLite |
+| Mensajería y caché | RabbitMQ, Redis |
 | Infraestructura y herramientas | Docker, Gradle, Git, OpenAPI/Swagger |
 | Desarrollo multiplataforma | Kotlin Multiplatform, Jetpack Compose, SwiftUI |
+| Desarrollo web | React, TypeScript, Vite, Tailwind CSS |
 
 ---
 
 ## Otros proyectos y prácticas
 
-Además de los proyectos destacados, he desarrollado aplicaciones y ejercicios que me han permitido trabajar con diferentes tecnologías y reforzar mis fundamentos de ingeniería de software.
+Además de los proyectos destacados, he desarrollado proyectos personales y académicos que me han permitido trabajar con distintas tecnologías y reforzar mis fundamentos de ingeniería de software.
 
-- **[Banana Bank](https://github.com/asobrados03/banana-bank-hackathon-case-study)** — Caso de estudio de una experiencia bancaria ficticia con asistencia mediante IA. El foco está en los problemas de ingeniería que aparecen al gestionar operaciones sensibles: confirmación de transferencias, prevención de duplicados, recuperación ante fallos y trazabilidad de la información.
-- **[Energy Deficit](https://github.com/asobrados03/energy-deficit)** — Herramienta CLI en Python para analizar el déficit energético a partir de datos de generación eólica y demanda eléctrica.
-- **[Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)** — Aplicación Android en Kotlin y Jetpack Compose para gestionar ingresos, gastos, presupuestos y estadísticas, utilizando MVVM y Repository.
-- **[Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)** — Aplicación Java centrada en programación orientada a objetos y patrones de diseño.
-- **[Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)** — Aplicación web para la publicación de avisos dirigidos a estudiantes.
-- **[Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)** — Colección de ejercicios de estructuras de datos y algoritmos en Java.
-- **[Sistemas Distribuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)** — Prácticas de concurrencia y comunicación cliente-servidor con Java y WebSockets.
-- **[Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)** — Recreación del clásico videojuego con Java, Swing y AWT.
+- **[Banana Bank — experiencia de hackathon](https://github.com/asobrados03/banana-bank-hackathon-case-study)** — Caso de estudio de una aplicación bancaria ficticia con asistente de IA. Trabajé en la confirmación de transferencias, la prevención de duplicados, la recuperación ante fallos y la trazabilidad de las fuentes de información.
+- **[Energy Deficit](https://github.com/asobrados03/energy-deficit)** — Herramienta CLI en Python para calcular la energía adicional necesaria para cubrir la demanda eléctrica española cuando la generación eólica es la única fuente disponible, utilizando datos de ESIOS/REE.
+- **[Finanzas Personales](https://github.com/asobrados03/Finanzas_Personales)** — Aplicación Android en Kotlin y Jetpack Compose para gestionar ingresos, gastos, presupuestos y estadísticas, siguiendo MVVM y Repository.
+- - **[PetAdopt](https://github.com/asobrados03/PetAdopt)** — Aplicación web empresarial para facilitar la adopción de mascotas, desarrollada en equipo con Java EE 7, PrimeFaces, JPA y PostgreSQL.
+- **[Centro de Convenciones](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones)** — Aplicación Java para gestionar espacios, reservas, productos y aspectos económicos mediante programación orientada a objetos y patrones de diseño.
+- **[Notificador de Avisos](https://github.com/asobrados03/TWEB-Notificador-Avisos)** — Aplicación web para que los profesores publiquen avisos dirigidos a sus estudiantes, desarrollada con PHP y tecnologías web.
+- **[Estructuras de Datos](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos)** — Colección de ejercicios de Java sobre listas enlazadas, pilas, colas, árboles y otras estructuras de datos.
+- **[Sistemas Distribuidos](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos)** — Prácticas de concurrencia y comunicación cliente-servidor con Java, `Thread`, `Runnable` y WebSockets.
+- **[Arkanoid](https://github.com/asobrados03/PracticaFinalArkanoid)** — Recreación del clásico videojuego con Java, Swing y AWT, como práctica de desarrollo de aplicaciones de escritorio.
 
 ---
 
 ## Sobre mí
 
-Soy ingeniero informático y quiero seguir creciendo profesionalmente en el desarrollo backend, participando en el diseño de APIs, las decisiones de arquitectura y la mejora continua de la calidad del software.
+Soy ingeniero informático orientado al desarrollo backend y al diseño de APIs. Me interesa participar en decisiones de arquitectura y construir servicios seguros, mantenibles y fáciles de probar.
 
-Valoro el código legible, las pruebas que aportan confianza y las soluciones que pueden mantenerse y evolucionar con el tiempo.
+Valoro el código legible, la separación clara de responsabilidades y las pruebas que permiten evolucionar un sistema con confianza. Mi experiencia en desarrollo multiplataforma y web también me ayuda a comprender cómo se integran los servicios backend con las aplicaciones que utilizan las personas.
 
-**¿Quieres conocer mejor mi trabajo?**
+### ¿Quieres conocer mejor mi trabajo?
 
-Visita mi **[portfolio web](https://alfredo-sobrados-portfolio.vercel.app/)** para explorar los proyectos destacados y conocer más detalles sobre las decisiones técnicas detrás de cada uno.
+Visita mi **[portfolio web](https://alfredo-sobrados-portfolio.vercel.app/)** para explorar mis proyectos destacados y conocer más sobre las decisiones técnicas detrás de cada uno.
 
-[LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/)
+También puedes contactar conmigo a través de [LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/).
 
 
 <!-- 
