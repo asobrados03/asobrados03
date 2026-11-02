@@ -22,7 +22,7 @@ El proyecto separa la entrada, el análisis, la persistencia y la revisión huma
 
 **Tecnologías:** Python, FastAPI, Pydantic, SQLAlchemy, SQLite, React, TypeScript, Vite, Tailwind CSS, TanStack Query, JWT, Ollama, pytest, Vitest, Docker y GitHub Actions.
 
-[Consultar el repositorio](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/ai-incident-triage" label="asobrados03/ai-incident-triage" />)
+[Consultar el repositorio](https://github.com/asobrados03/ai-incident-triage)
 
 ### 2. Human Perform Platform
 
@@ -32,8 +32,8 @@ Combina una aplicación multiplataforma para Android e iOS con una API REST desa
 
 **Tecnologías:** Kotlin Multiplatform, Jetpack Compose, SwiftUI, Node.js, Express, MariaDB y JWT.
 
-- [Aplicación multiplataforma](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/HumanPerformApp" label="asobrados03/HumanPerformApp" />)
-- [API REST](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/api_rest_human_app" label="asobrados03/api_rest_human_app" />)
+- [Aplicación multiplataforma](https://github.com/asobrados03/HumanPerformApp)
+- [API REST](https://github.com/asobrados03/api_rest_human_app)
 - [Documentación del TFG](https://uvadoc.uva.es/handle/10324/84418)
 
 ### 3. Landing Page: Geotecnia y Servicios
@@ -44,7 +44,7 @@ Integra un flujo de contacto de extremo a extremo: validación compartida entre 
 
 **Tecnologías:** React 19, TypeScript, Vite, Tailwind CSS, shadcn/ui, Zod, Vercel, Supabase, Resend, Google reCAPTCHA v3 y Vitest.
 
-[Consultar el repositorio](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/geotecnia-servicios-landing" label="asobrados03/geotecnia-servicios-landing" />)
+[Consultar el repositorio](https://github.com/asobrados03/geotecnia-servicios-landing)
 
 ### 4. HotelManagementAPI
 
@@ -54,7 +54,7 @@ Utiliza JDBC directamente, sin ORM, y una arquitectura hexagonal que separa el d
 
 **Tecnologías:** Java 21, Spring Boot, Spring Security, JWT, JDBC, MariaDB, Redis, RabbitMQ, Docker, OpenAPI, JUnit 5, Mockito y Testcontainers.
 
-[Consultar el repositorio](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/HotelManagementAPI" label="asobrados03/HotelManagementAPI" />)
+[Consultar el repositorio](https://github.com/asobrados03/HotelManagementAPI)
 
 ---
 
@@ -78,15 +78,15 @@ Utiliza JDBC directamente, sin ORM, y una arquitectura hexagonal que separa el d
 
 Además de los proyectos destacados, he desarrollado proyectos personales y académicos que me han permitido trabajar con distintas tecnologías y reforzar mis fundamentos de ingeniería de software.
 
-- [**Banana Bank — experiencia de hackathon**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/banana-bank-hackathon-case-study" label="asobrados03/banana-bank-hackathon-case-study" />) — Caso de estudio de una aplicación bancaria ficticia con asistente de IA. Trabajé en la confirmación de transferencias, la prevención de duplicados, la recuperación ante fallos y la trazabilidad de las fuentes de información.
-- [**Energy Deficit**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/energy-deficit" label="asobrados03/energy-deficit" />) — Herramienta CLI en Python para calcular la energía adicional necesaria para cubrir la demanda eléctrica española cuando la generación eólica es la única fuente disponible, utilizando datos de ESIOS/REE.
-- [**Finanzas Personales**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/Finanzas_Personales" label="asobrados03/Finanzas_Personales" />) — Aplicación Android en Kotlin y Jetpack Compose para gestionar ingresos, gastos, presupuestos y estadísticas, siguiendo MVVM y Repository.
-- [**PetAdopt**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/PetAdopt" label="asobrados03/PetAdopt" />) — Aplicación web empresarial para facilitar la adopción de mascotas, desarrollada en equipo con Java EE 7, PrimeFaces, JPA y PostgreSQL.
-- [**Centro de Convenciones**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones" label="asobrados03/Practica_FINAL_CentroDeConvenciones" />) — Aplicación Java para gestionar espacios, reservas, productos y aspectos económicos mediante programación orientada a objetos y patrones de diseño.
-- [**Notificador de Avisos**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/TWEB-Notificador-Avisos" label="asobrados03/TWEB-Notificador-Avisos" />) — Aplicación web para que los profesores publiquen avisos dirigidos a sus estudiantes, desarrollada con PHP y tecnologías web.
-- [**Estructuras de Datos**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos" label="asobrados03/Practicas-Programacion-y-Estructuras-de-Datos" />) — Colección de ejercicios de Java sobre listas enlazadas, pilas, colas, árboles y otras estructuras de datos.
-- [**Sistemas Distribuidos**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/Practicas_Sistemas_Distribuidos" label="asobrados03/Practicas_Sistemas_Distribuidos" />) — Prácticas de concurrencia y comunicación cliente-servidor con Java, `Thread`, `Runnable` y WebSockets.
-- [**Arkanoid**](<copilot-ref kind="repo" target-id="https://github.com/asobrados03/PracticaFinalArkanoid" label="asobrados03/PracticaFinalArkanoid" />) — Recreación del clásico videojuego con Java, Swing y AWT, como práctica de desarrollo de aplicaciones de escritorio.
+- [**Banana Bank — experiencia de hackathon**](https://github.com/asobrados03/banana-bank-hackathon-case-study) — Caso de estudio de una aplicación bancaria ficticia con asistente de IA. Trabajé en la confirmación de transferencias, la prevención de duplicados, la recuperación ante fallos y la trazabilidad de las fuentes de información.
+- [**Energy Deficit**](https://github.com/asobrados03/energy-deficit) — Herramienta CLI en Python para calcular la energía adicional necesaria para cubrir la demanda eléctrica española cuando la generación eólica es la única fuente disponible, utilizando datos de ESIOS/REE.
+- [**Finanzas Personales**](https://github.com/asobrados03/Finanzas_Personales) — Aplicación Android en Kotlin y Jetpack Compose para gestionar ingresos, gastos, presupuestos y estadísticas, siguiendo MVVM y Repository.
+- [**PetAdopt**](https://github.com/asobrados03/PetAdopt) — Aplicación web empresarial para facilitar la adopción de mascotas, desarrollada en equipo con Java EE 7, PrimeFaces, JPA y PostgreSQL.
+- [**Centro de Convenciones**](https://github.com/asobrados03/Practica_FINAL_CentroDeConvenciones) — Aplicación Java para gestionar espacios, reservas, productos y aspectos económicos mediante programación orientada a objetos y patrones de diseño.
+- [**Notificador de Avisos**](https://github.com/asobrados03/TWEB-Notificador-Avisos) — Aplicación web para que los profesores publiquen avisos dirigidos a sus estudiantes, desarrollada con PHP y tecnologías web.
+- [**Estructuras de Datos**](https://github.com/asobrados03/Practicas-Programacion-y-Estructuras-de-Datos) — Colección de ejercicios de Java sobre listas enlazadas, pilas, colas, árboles y otras estructuras de datos.
+- [**Sistemas Distribuidos**](https://github.com/asobrados03/Practicas_Sistemas_Distribuidos) — Prácticas de concurrencia y comunicación cliente-servidor con Java, `Thread`, `Runnable` y WebSockets.
+- [**Arkanoid**](https://github.com/asobrados03/PracticaFinalArkanoid) — Recreación del clásico videojuego con Java, Swing y AWT, como práctica de desarrollo de aplicaciones de escritorio.
 
 ---
 
