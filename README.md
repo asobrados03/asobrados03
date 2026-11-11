@@ -6,7 +6,7 @@ Desarrollo APIs y servicios backend con **Java, Spring Boot, Python, FastAPI y N
 
 Me interesa construir software fácil de entender, probar y evolucionar, tomando decisiones técnicas que faciliten su mantenimiento a largo plazo. También me interesa explorar aplicaciones prácticas de la inteligencia artificial con evaluación reproducible, revisión humana y controles de seguridad.
 
-[**🌐 Portfolio web**](https://alfredo-sobrados-portfolio.vercel.app/) **·** [**💼 LinkedIn**](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/)
+[**🌐 Portfolio web**](https://alfredo-sobrados-portfolio.vercel.app/) **·** [**💼 LinkedIn**](https://www.linkedin.com/in/alfredo-sobrados-gonzalez-desarrollador-software/)
 
 ---
 
@@ -102,7 +102,7 @@ Valoro el código legible, la separación clara de responsabilidades y las prueb
 
 Visita mi [**portfolio web**](https://alfredo-sobrados-portfolio.vercel.app/) para explorar mis proyectos destacados y conocer más sobre las decisiones técnicas detrás de cada uno.
 
-También puedes contactar conmigo a través de [LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez/).
+También puedes contactar conmigo a través de [LinkedIn](https://www.linkedin.com/in/alfredo-sobrados-gonzalez-desarrollador-software/).
 
 <!-- 
 
